@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilrouy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(192, 222, 195);
+}
+
+#pannel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+#ptop{
+    padding: 0px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(72, 99, 72);
+    
+}
+.ele{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+   color: black;
+   font-weight: 600;
+   font-size: 25px;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background-color: white;
+
+}
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(69, 109, 79);
+    color: black;
+    border-radius: 50%;
+}
+
+.bubble:hover{
+    background-color: rgb(97, 143, 97);
+}
